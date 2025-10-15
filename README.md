@@ -1,5 +1,7 @@
 # ArekTrip
 
+https://adamnirvan.github.io/ArekTrip/
+
 Website sederhana untuk rekomendasi **Wisata & Kuliner Surabaya**. Fitur:
 - Foto destinasi/kuliner + tombol **Cek Lokasi** menuju Google Maps.
 - **Dark/Light mode** via tombol (persisten di `localStorage`, default awal terang).
