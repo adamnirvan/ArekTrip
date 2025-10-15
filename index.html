@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArekTrip — Wisata & Kuliner Surabaya</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="ArekTrip: Rekomendasi tempat wisata dan kuliner di Surabaya lengkap dengan petunjuk lokasi Google Maps.">
+  <link rel="icon" type="image/png" href="Asset/Logo.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <img src="Asset/Logo.png" alt="Logo ArekTrip">
+        <span>ArekTrip</span>
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#wisata">Wisata</a>
+        <a href="#kuliner">Kuliner</a>
+        <a href="about.html">Tentang</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+      <button id="theme-toggle" class="icon-btn" aria-label="Ganti tema" aria-pressed="false">
+        <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video autoplay muted loop playsinline class="hero-bg">
+        <source src="Asset/surabaya.mp4" type="video/mp4">
+      </video>
+      <div class="container hero-grid">
+    <div>
+      <h1>Jelajah <em>Wisata</em> & <em>Kuliner</em> Favorit di Surabaya</h1>
+      <p>ArekTrip membantu kamu menemukan tempat seru untuk dikunjungi dan makanan khas yang wajib dicoba. Setiap rekomendasi dilengkapi foto & tombol menuju Google Maps.</p>
+        <div class="cta">
+          <a class="btn primary" href="#wisata">Mulai Eksplor</a>
+          <a class="btn" href="about.html">Pelajari ArekTrip</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+    <section id="wisata" class="section container">
+      <h2>Rekomendasi Wisata</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="Asset/tugupahlawan.jpeg" alt="Tugu Pahlawan Surabaya">
+          <div class="content">
+            <h3>Tugu Pahlawan</h3>
+            <p>Monumen ikonik kota Surabaya untuk mengenang pertempuran 10 November. Area lapang dan museum di bawah tanah.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Tugu+Pahlawan+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Tugu+Pahlawan+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="Asset/suramadu.jpg" alt="Jembatan Suramadu">
+          <div class="content">
+            <h3>Jembatan Suramadu</h3>
+            <p>Jembatan penghubung Surabaya–Madura. Pemandangan indah terutama saat senja dengan lampu-lampu yang menyala.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Jembatan+Suramadu">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Jembatan+Suramadu+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Ganti House of Sampoerna -> Jalan Tunjungan -->
+        <article class="card">
+          <img src="Asset/tunjungan.jpg" alt="Jalan Tunjungan Surabaya di malam hari">
+          <div class="content">
+            <h3>Jalan Tunjungan</h3>
+            <p>Koridor heritage yang fotogenik dengan bangunan kolonial, lampu malam, dan spot populer untuk berjalan santai.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Jalan+Tunjungan+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Jalan+Tunjungan+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Tambahan: Kebun Binatang Surabaya -->
+        <article class="card">
+          <img src="Asset/kbs.jpeg" alt="Gerbang Kebun Binatang Surabaya">
+          <div class="content">
+            <h3>Kebun Binatang Surabaya</h3>
+            <p>Kebun binatang legendaris dengan koleksi satwa beragam, cocok untuk rekreasi keluarga dan edukasi.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Kebun+Binatang+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Kebun+Binatang+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Tambahan: Ekowisata Mangrove Wonorejo -->
+        <article class="card">
+          <img src="Asset/mangrove.jpeg" alt="Jalur papan di Ekowisata Mangrove Wonorejo">
+          <div class="content">
+            <h3>Ekowisata Mangrove Wonorejo</h3>
+            <p>Ruang hijau pesisir dengan jalur papan kayu dan perahu menyusuri hutan mangrove yang asri.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Ekowisata+Mangrove+Wonorejo">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Ekowisata+Mangrove+Wonorejo">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Tambahan: Kota Tua Surabaya -->
+        <article class="card">
+          <img src="Asset/kotatua.webp" alt="Kawasan Kota Tua Surabaya dekat Jembatan Merah">
+          <div class="content">
+            <h3>Kota Tua</h3>
+            <p>Kawasan bersejarah di sekitar Jembatan Merah dengan gedung kolonial; cocok untuk foto dan jelajah sejarah.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Kota+Tua+Surabaya+Jembatan+Merah">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Kota+Tua+Surabaya">Cari Info</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="kuliner" class="section container">
+      <h2>Rekomendasi Kuliner</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="Asset/rawin.jpg" alt="Semangkuk Rawon khas Jawa Timur">
+          <div class="content">
+            <h3>Rawon Setan (Embong Malang)</h3>
+            <p>Legenda rawon dengan kuah hitam kluwek, daging empuk, dan sambal yang nendang—ramai saat malam.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Rawon+Setan+Embong+Malang">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Rawon+Setan+Embong+Malang">Cari Info</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="Asset/soto.jpg" alt="Semangkuk soto hangat">
+          <div class="content">
+            <h3>Soto Ambengan Pak Sadi</h3>
+            <p>Soto ayam khas Surabaya dengan koya gurih. Kuahnya ringan, pas dinikmati kapan saja.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Soto+Ambengan+Pak+Sadi+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Soto+Ambengan+Pak+Sadi+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="Asset/lontongbalap.jpeg" alt="Lontong dengan topping khas">
+          <div class="content">
+            <h3>Lontong Balap</h3>
+            <p>Kuliner legendaris berisi lontong, taoge, tahu, lentho, dan kuah gurih manis. Banyak penjaja favorit di kota.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Lontong+Balap+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Lontong+Balap+Surabaya">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Tambahan: Rujak Cingur -->
+        <article class="card">
+          <img src="Asset/rujakcingur.jpg" alt="Rujak Cingur khas Surabaya dengan bumbu petis">
+          <div class="content">
+            <h3>Rujak Cingur</h3>
+            <p>Ikon kuliner Surabaya: sayuran, buah, lontong, tempe, tahu, dan cingur dengan bumbu petis kental.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Rujak+Cingur+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Rujak+Cingur+Surabaya+terdekat">Cari Info</a>
+          </div>
+        </article>
+
+        <!-- Tambahan: Tahu Tek -->
+        <article class="card">
+          <img src="Asset/tahutek.webp" alt="Tahu Tek Surabaya dengan bumbu kacang">
+          <div class="content">
+            <h3>Tahu Tek</h3>
+            <p>Potongan tahu & telur goreng dengan lontong dan kentang, disiram bumbu kacang petis—favorit malam hari.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=Tahu+Tek+Surabaya">Cek Lokasi</a>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=Tahu+Tek+Surabaya+terdekat">Cari Info</a>
+          </div>
+        </article>
+      </div>
+      <p class="container small">Tip: tombol <b>Cek Lokasi</b> langsung membuka Google&nbsp;Maps pada tab baru.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="y"></span> ArekTrip • Made with HTML, CSS, & JS
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
